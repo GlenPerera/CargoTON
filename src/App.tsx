@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar/navbar";
+import Herosection from "./components/herosection";
 function App() {
   return (
     <>
-      <p>Hello World</p>
+      <Navbar />
+      <Herosection />
     </>
   );
 }
