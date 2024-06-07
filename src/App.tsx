@@ -5,6 +5,7 @@ import StatSection from "./components/statsection";
 import Partners from "./components/partners";
 import News from "./components/news";
 import Footer from "./components/footer";
+import Scroll from "./components/scrollToTop";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Partners />
       <News />
       <Footer />
+      <Scroll />
     </>
   );
 }

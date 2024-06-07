@@ -3,9 +3,9 @@ import React from "react";
 const herosection = () => {
   return (
     <section className="hero relative">
-      <div className="container mx-auto flex items-center justify-between py-10">
-        <div className="hero-text ml-32 bg-[white] relative z-10 p-6">
-          <h2 className="text-4xl font-bold">
+      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between py-10 px-4 md:px-0 mt-16">
+        <div className="hero-text md:ml-32 bg-white relative z-10 p-6 animate-fadeInUp">
+          <h2 className="text-xl md:text-5xl lg:text-6xl font-bold mb-4">
             Logistic
             <br />
             <br />
@@ -13,22 +13,27 @@ const herosection = () => {
             <br />
             <span className="text-yellow-400">Partner</span>
           </h2>
-          <p className="mt-4">
+          <p className="text-lg md:text-xl mt-4 md:mt-6 mb-8 md:mb-12">
             We are a global shipping company who supply quality products all
             over the world!
           </p>
           <a
             href="#"
-            className="mt-4 inline-block bg-[yellow] text-black py-2 px-4 hover:bg-yellow-300"
+            className="inline-block bg-yellow-500 hover:bg-yellow-400 text-black py-2 px-6 md:px-8 rounded-lg text-lg font-semibold transition duration-300"
           >
             Discover More
           </a>
         </div>
-        <div className="hero-image ">
+        <div className="hero-image w-full mr-4 md:w-auto animate-slideInRight sm:ml-8 flex justify-center">
           <img
             src="/harbour.png"
-            className="w-full max-w-[1000px] mr-12 "
-            style={{ transform: "translateX(-180px)" }}
+            className="max-w-full max-w-[1000px]"
+            style={{
+              maxWidth: "100%",
+              position: "relative",
+              left: "50%",
+              transform: "translateX(-50%)", // Center the image horizontally
+            }}
             alt="Harbour"
           />
         </div>

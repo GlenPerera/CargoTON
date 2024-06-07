@@ -9,7 +9,7 @@ const news = () => {
 
       <main className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden animate-slideInRight">
             <img
               src="flight.png"
               alt="Air Freight"
@@ -30,7 +30,7 @@ const news = () => {
               </a>
             </div>
           </div>
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden animate-fadeInUp">
             <img
               src="ship.png"
               alt="Drone Services"

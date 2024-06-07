@@ -15,7 +15,7 @@ const solution = () => {
       <main className="container mx-auto px-4">
         <div className="bg-white shadow-lg overflow-hidden max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2">
-            <div>
+            <div className="animate-fadeInUp">
               <img
                 src="flight.png"
                 alt="Air Freight"
@@ -36,7 +36,7 @@ const solution = () => {
                 </a>
               </div>
             </div>
-            <div>
+            <div className="animate-fadeInUp">
               <img
                 src="ship.png"
                 alt="Drone Services"
