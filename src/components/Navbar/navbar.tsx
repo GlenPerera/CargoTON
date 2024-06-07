@@ -68,7 +68,7 @@ const navbar = () => {
             <div className="flex items-center gap-4">
               <div className="sm:flex sm:gap-4 hidden md:flex">
                 <a
-                  className="bg-[yellow] px-5 py-2 text-sm font-medium text-black"
+                  className="bg-[yellow] px-5 py-2 text-sm font-medium text-black hover:bg-yellow-500"
                   href="#"
                 >
                   GET A QUOTE
